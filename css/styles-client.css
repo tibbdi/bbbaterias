@@ -1211,3 +1211,39 @@ body.category-redesign .category-shelf .shelf-info .evaluation .ts-shelf-rate-co
 /* Correção botão avise-me pg produtos */
 
 .colecaoa, .colecaob, .colecaoc { color: transparent!important; }
+
+/* Ajustes flag desalinhada */
+.flag {
+    width: 100%!important;
+}
+
+.colecaoa::before, .colecaob::before, .colecaoc::before {
+    width: 100%!important;
+    background-position: right!important;
+    left: -13px!important;
+}
+
+body.produto .product-image-container .flags {
+    width: 100%;
+}
+/* Ajustes flag desalinhada */
+
+/* Ajustes flag desalinhada shelf-redesign */
+@media (min-width: 1024px) {
+    .shelf-redesign .colecaoa::before, .colecaob::before, .colecaoc::before {
+        width: 382px!important;
+    }
+}
+
+@media (max-width: 781px) {
+     .shelf-redesign .colecaoa::before, .colecaob::before, .colecaoc::before {
+        width: 362px!important;
+    }
+}
+
+@media (max-width: 381px) {
+     .shelf-redesign .colecaoa::before, .colecaob::before, .colecaoc::before {
+        width: 315px!important;
+    }
+}
+/* Ajustes flag desalinhada shelf-redesign */
