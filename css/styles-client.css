@@ -1285,3 +1285,20 @@ body.produto .product-image-container .flags {
     }
 }
 /* Ajustes flag desalinhada shelf-redesign */
+
+/* Ajustes width e height */
+.qvvt li .collection-image-link img {
+    width: 160px!important;
+    height: 160px!important
+}
+/* Ajustes width e height */
+
+/* Ajustes caixas grudadas  */
+.vitrine.resultItemsWrapper .shelf ul li {
+    margin: 0 7px 10px 0!important
+}
+
+.qvvt .shelf ul li {
+    margin: 0 10px 10px 0!important
+}
+/* Ajustes caixas grudadas  */
