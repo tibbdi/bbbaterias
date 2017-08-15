@@ -1294,7 +1294,11 @@ body.produto .product-image-container .flags {
 /* Ajustes width e height */
 
 /* Ajustes caixas grudadas  */
-.vitrine.resultItemsWrapper .shelf ul li {
+.busca-bbb .shelf ul li {
+    margin: 0 7px 10px 0!important
+}
+
+.depart-bestsellers .shelf ul li {
     margin: 0 7px 10px 0!important
 }
 
