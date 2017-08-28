@@ -1167,9 +1167,7 @@
 }
 
 .tc-widget-standard .tc-widget-standard-content .tc-widget-standard-col-3 .tc-widget-reviewcount {
-    font-size: .85em!important;
-    opacity: initial!important;
-    color: #ffc240!important;
+    font-size: 14px!important
 }
 
 .tc-ratings svg {
