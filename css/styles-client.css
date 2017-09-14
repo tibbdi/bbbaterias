@@ -1,4 +1,4 @@
-/*retirada das flags da bbdi*/
+﻿/*retirada das flags da bbdi*/
 .promo-bbdi { display: none; }
 
 .page-footer .vendors .list .list-item.bbdi {
@@ -1304,3 +1304,93 @@ body.produto .product-image-container .flags {
     margin: 0 10px 10px 0!important
 }
 /* Ajustes caixas grudadas  */
+
+/* Titulo H1 Categoria */
+.category-info h1 {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px
+}
+/* Titulo H1 Categoria */
+
+/* Estilo PDF */
+.stylepdf h3 {
+    font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.stylepdf p {
+    font-size: 17px!important;
+    color: #000000!important;
+    line-height: 20px!important;
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+    font-weight: initial!important;
+    float: initial!important
+}
+
+.stylepdf ul {
+	list-style-type: disc;
+	list-style-position: inside;
+	color: #000000;
+	margin-left: 5px
+}
+
+.stylepdf li {
+	margin-bottom: 5px
+}
+
+.stylepdf ul a {
+	margin-left: -5px
+}
+
+.stylepdf a:link {
+    color: #0d6ea1;
+    text-decoration: none;
+	font-size: 17px;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out
+}
+
+.stylepdf a:visited {
+    color: #0d6ea1;
+    text-decoration: none
+}
+
+.stylepdf a:hover {
+    color: #3593d9;
+    text-decoration: none
+}
+
+.stylepdf a:active {
+    color: #3593d9;
+    text-decoration: none
+}
+
+.category .stylepdf li {
+	margin-bottom: 14px
+}
+
+.category-redesign-2 .stylepdf li {
+	margin-bottom: 14px
+}
+
+.category-info.category-info-bottom .stylepdf li {
+	margin-bottom: 5px
+}
+
+@media (max-width: 1024px) {
+     .stylepdf {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+/* Estilo PDF */
