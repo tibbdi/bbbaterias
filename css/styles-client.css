@@ -1208,14 +1208,14 @@ body.category-redesign .category-shelf .shelf-info .evaluation .ts-shelf-rate-co
 }
 /* Correção botão avise-me pg produtos */
 
-.colecaoa, .colecaob, .colecaoc { color: transparent!important; }
+.colecaoa, .colecaob, .colecaoc, .colecao39 { color: transparent!important; }
 
 /* Ajustes flag desalinhada */
 .flag {
     width: 100%!important;
 }
 
-.colecaoa::before, .colecaob::before, .colecaoc::before {
+.colecaoa::before, .colecaob::before, .colecaoc::before, .colecao39::before {
     width: 100%!important;
     background-position: right!important;
     left: -13px!important;
@@ -1282,6 +1282,25 @@ body.produto .product-image-container .flags {
         width: 315px!important;
     }
 }
+
+
+@media (min-width: 1024px) {
+    .shelf-redesign .colecao39::before {
+        width: 382px!important;
+    }
+}
+
+@media (max-width: 781px) {
+     .shelf-redesign .colecao39::before {
+        width: 362px!important;
+    }
+}
+
+@media (max-width: 381px) {
+     .shelf-redesign .colecao39::before {
+        width: 315px!important;
+    }
+}
 /* Ajustes flag desalinhada shelf-redesign */
 
 /* Ajustes width e height */
@@ -1292,10 +1311,6 @@ body.produto .product-image-container .flags {
 /* Ajustes width e height */
 
 /* Ajustes caixas grudadas  */
-.busca-bbb .shelf ul li {
-    margin: 0 7px 10px 0!important
-}
-
 .depart-bestsellers .shelf ul li {
     margin: 0 7px 10px 0!important
 }
@@ -1315,6 +1330,15 @@ body.produto .product-image-container .flags {
 /* Titulo H1 Categoria */
 
 /* Estilo PDF */
+.stylepdf h2 {
+    font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
 .stylepdf h3 {
     font-size: 20px;
 	font-weight: bold;
