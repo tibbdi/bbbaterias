@@ -4057,7 +4057,10 @@ p.texto-light-footer {
 .colecaoa,
 .colecaob,
 .colecaoc,
-.colecao39 {
+.colecao39,
+.promobf,
+.promopg,
+.fontebf {
     position: relative;
     display: block;
     padding: 4px;
@@ -4070,7 +4073,10 @@ p.texto-light-footer {
 .colecaoa::before,
 .colecaob::before,
 .colecaoc::before,
-.colecao39::before {
+.colecao39::before, 
+.promobf::before, 
+.promopg::before, 
+.fontebf::before {
     position: absolute;
     top: -7px;
     left: -7px;
@@ -4120,6 +4126,39 @@ p.texto-light-footer {
 
 .shelf-redesign .colecao39::before {
     background-image: url("colecao39-2.png");
+    background-size: contain;
+    height: 15px;
+    margin-top: 14px
+}
+
+.promobf::before {
+    background-image: url("promobf.png")
+}
+
+.shelf-redesign .promobf::before {
+    background-image: url("promobf-2.png");
+    background-size: contain;
+    height: 15px;
+    margin-top: 14px
+}
+
+.promopg::before {
+    background-image: url("promopg.png")
+}
+
+.shelf-redesign .promopg::before {
+    background-image: url("promopg-2.png");
+    background-size: contain;
+    height: 15px;
+    margin-top: 14px
+}
+
+.fontebf::before {
+    background-image: url("fontebf.png")
+}
+
+.shelf-redesign .fontebf::before {
+    background-image: url("fontebf-2.png");
     background-size: contain;
     height: 15px;
     margin-top: 14px
@@ -7657,7 +7696,10 @@ body.category-redesign .btn-load-more span:hover {
     body.category-redesign .category-shelf .shelf-info .flag .colecaoa:before,
     body.category-redesign .category-shelf .shelf-info .flag .colecaob:before,
     body.category-redesign .category-shelf .shelf-info .flag .colecaoc:before,
-	body.category-redesign .category-shelf .shelf-info .flag .colecao39:before {
+	body.category-redesign .category-shelf .shelf-info .flag .colecao39:before,
+	body.category-redesign .category-shelf .shelf-info .flag .promobf:before,
+	body.category-redesign .category-shelf .shelf-info .flag .promopg:before,
+	body.category-redesign .category-shelf .shelf-info .flag .fontebf:before {
         width: 120px;
         background-size: contain
     }
@@ -7737,7 +7779,10 @@ body.category-redesign .btn-load-more span:hover {
     body.category-redesign .category-shelf .shelf-info .flag .colecaoa:before,
     body.category-redesign .category-shelf .shelf-info .flag .colecaob:before,
     body.category-redesign .category-shelf .shelf-info .flag .colecaoc:before,
-	body.category-redesign .category-shelf .shelf-info .flag .colecao39:before {
+	body.category-redesign .category-shelf .shelf-info .flag .colecao39:before,
+	body.category-redesign .category-shelf .shelf-info .flag .promobf:before,
+	body.category-redesign .category-shelf .shelf-info .flag .promopg:before,
+	body.category-redesign .category-shelf .shelf-info .flag .fontebf:before {
         width: 120px;
         background-size: contain
     }
@@ -7798,7 +7843,10 @@ body.category-redesign .btn-load-more span:hover {
     body.category-redesign .category-shelf .shelf-prices .shelf-info .flag .colecaoa:before,
     body.category-redesign .category-shelf .shelf-prices .shelf-info .flag .colecaob:before,
     body.category-redesign .category-shelf .shelf-prices .shelf-info .flag .colecaoc:before,
-	body.category-redesign .category-shelf .shelf-prices .shelf-info .flag .colecao39:before {
+	body.category-redesign .category-shelf .shelf-prices .shelf-info .flag .colecao39:before,
+	body.category-redesign .category-shelf .shelf-prices .shelf-info .flag .promobf:before,
+	body.category-redesign .category-shelf .shelf-prices .shelf-info .flag .promopg:before,
+	body.category-redesign .category-shelf .shelf-prices .shelf-info .flag .fontebf:before {
         width: 90px;
         background-size: contain
     }

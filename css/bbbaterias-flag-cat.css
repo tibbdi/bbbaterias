@@ -41,9 +41,33 @@
     margin-top: 6px
 }
 
+.grid-list .promobf::before {
+	background-size: contain;
+    height: 16px;
+	left: 20px!important;
+    background-image: url("promobf-2.png");
+    margin-top: 6px
+}
+
+.grid-list .promopg::before {
+	background-size: contain;
+    height: 16px;
+	left: 20px!important;
+    background-image: url("promopg-2.png");
+    margin-top: 6px
+}
+
+.grid-list .fontebf::before {
+	background-size: contain;
+    height: 16px;
+	left: 20px!important;
+    background-image: url("fontebf-2.png");
+    margin-top: 6px
+}
+
 @media only screen and (max-width: 600px) {
 	
-	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before {
+	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before, .promobf::before, .promopg::before, .fontebf::before {
 		left: 42px!important
 	}
 	
@@ -51,7 +75,7 @@
 
 @media only screen and (max-width: 450px) {
 	
-	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before {
+	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before, .promobf::before, .promopg::before, .fontebf::before {
 		left: 45px!important
 	}
 	
@@ -59,7 +83,7 @@
 
 @media only screen and (max-width: 397px) {
 	
-	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before {
+	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before, .promobf::before, .promopg::before, .fontebf::before {
 		margin-top: 13px!important
 	}
 	
@@ -67,7 +91,7 @@
 
 @media only screen and (max-width: 350px) {
 	
-	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before {
+	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before, .promobf::before, .promopg::before, .fontebf::before {
 		left: 49px!important
 	}
 	
