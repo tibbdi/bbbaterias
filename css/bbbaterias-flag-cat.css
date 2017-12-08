@@ -1,121 +1,209 @@
 .flag {
-	top: 2px !important;
+    top: 2px !important;
     left: initial !important;
     right: 60px !important
-    }
+}
 
 .blackfriday::before {
-	background-size: contain;
+    background-size: contain;
     height: 25px !important
-    }     
-	
+}
+
 .grid-list .colecaoa::before {
-	background-size: contain;
+    background-size: contain;
     height: 16px;
-	left: 20px!important;
+    left: 20px!important;
     background-image: url("colecaoa-2.png");
     margin-top: 6px
 }
 
 .grid-list .colecaob::before {
-	background-size: contain;
+    background-size: contain;
     height: 16px;
-	left: 20px!important;
+    left: 20px!important;
     background-image: url("colecaob-2.png");
     margin-top: 6px
 }
 
 .grid-list .colecaoc::before {
-	background-size: contain;
+    background-size: contain;
     height: 16px;
-	left: 20px!important;
+    left: 20px!important;
     background-image: url("colecaoc-2.png");
     margin-top: 6px
 }
 
 .grid-list .colecao39::before {
-	background-size: contain;
+    background-size: contain;
     height: 16px;
-	left: 20px!important;
+    left: 20px!important;
     background-image: url("colecao39-2.png");
     margin-top: 6px
 }
 
 .grid-list .promobf::before {
-	background-size: contain;
+    background-size: contain;
     height: 16px;
-	left: 20px!important;
+    left: 20px!important;
     background-image: url("promobf-2.png");
     margin-top: 6px
 }
 
 .grid-list .promopg::before {
-	background-size: contain;
+    background-size: contain;
     height: 16px;
-	left: 20px!important;
+    left: 20px!important;
     background-image: url("promopg-2.png");
     margin-top: 6px
 }
 
 .grid-list .fontebf::before {
-	background-size: contain;
+    background-size: contain;
     height: 16px;
-	left: 20px!important;
+    left: 20px!important;
     background-image: url("fontebf-2.png");
     margin-top: 6px
 }
 
+.grid-list .bateria-pac-gr-99::before {
+    background-size: contain;
+    height: 16px;
+    left: 20px!important;
+    background-image: url("flag-pac-gratis-2-bbb.png");
+    margin-top: 6px
+}
+
+.grid-list .bateria-promo-22::before {
+    background-size: contain;
+    height: 16px;
+    left: 20px!important;
+    background-image: url("flag-promo-22-2-bbb.png");
+    margin-top: 6px
+}
+
+.grid-list .bateria-promo-28::before {
+    background-size: contain;
+    height: 16px;
+    left: 20px!important;
+    background-image: url("flag-promo28-2-bbb.png");
+    margin-top: 6px
+}
+
+.grid-list .promo-pac-gr-99::before {
+    background-size: contain;
+    height: 16px;
+    left: 20px!important;
+    background-image: url("flag-pac-gratis-2-bbb.png");
+    margin-top: 6px
+}
+
+.grid-list .promo-22::before {
+    background-size: contain;
+    height: 16px;
+    left: 20px!important;
+    background-image: url("flag-promo-22-2-bbb.png");
+    margin-top: 6px
+}
+
+.grid-list .promo-28::before {
+    background-size: contain;
+    height: 16px;
+    left: 20px!important;
+    background-image: url("flag-promo28-2-bbb.png");
+    margin-top: 6px
+}
+
 @media only screen and (max-width: 600px) {
-	
-	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before, .promobf::before, .promopg::before, .fontebf::before {
-		left: 42px!important
-	}
-	
+    .grid-list .colecaoa::before,
+    .grid-list .colecaob::before,
+    .grid-list .colecaoc::before,
+    .grid-list .colecao39::before,
+    .grid-list .promobf::before,
+    .grid-list .promopg::before,
+    .grid-list .fontebf::before,
+    .grid-list .bateria-pac-gr-99::before,
+    .grid-list .bateria-promo-22::before,
+    .grid-list .bateria-promo-28::before,
+    .grid-list .promo-pac-gr-99::before,
+    .grid-list .promo-22::before,
+    .grid-list .promo-28::before {
+        left: 42px!important
+    }
 }
 
 @media only screen and (max-width: 450px) {
-	
-	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before, .promobf::before, .promopg::before, .fontebf::before {
-		left: 45px!important
-	}
-	
+    .grid-list .colecaoa::before,
+    .grid-list .colecaob::before,
+    .grid-list .colecaoc::before,
+    .grid-list .colecao39::before,
+    .grid-list .promobf::before,
+    .grid-list .promopg::before,
+    .grid-list .fontebf::before,
+    .grid-list .bateria-pac-gr-99::before,
+    .grid-list .bateria-promo-22::before,
+    .grid-list .bateria-promo-28::before,
+    .grid-list .promo-pac-gr-99::before,
+    .grid-list .promo-22::before,
+    .grid-list .promo-28::before {
+        left: 45px!important
+    }
 }
 
 @media only screen and (max-width: 397px) {
-	
-	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before, .promobf::before, .promopg::before, .fontebf::before {
-		margin-top: 13px!important
-	}
-	
+    .grid-list .colecaoa::before,
+    .grid-list .colecaob::before,
+    .grid-list .colecaoc::before,
+    .grid-list .colecao39::before,
+    .grid-list .promobf::before,
+    .grid-list .promopg::before,
+    .grid-list .fontebf::before,
+    .grid-list .bateria-pac-gr-99::before,
+    .grid-list .bateria-promo-22::before,
+    .grid-list .bateria-promo-28::before,
+    .grid-list .promo-pac-gr-99::before,
+    .grid-list .promo-22::before,
+    .grid-list .promo-28::before {
+        margin-top: 13px!important
+    }
 }
 
 @media only screen and (max-width: 350px) {
-	
-	.grid-list .colecaoa::before, .grid-list .colecaob::before, .grid-list .colecaoc::before, .grid-list .colecao39::before, .promobf::before, .promopg::before, .fontebf::before {
-		left: 49px!important
-	}
-	
+    .grid-list .colecaoa::before,
+    .grid-list .colecaob::before,
+    .grid-list .colecaoc::before,
+    .grid-list .colecao39::before,
+    .grid-list .promobf::before,
+    .grid-list .promopg::before,
+    .grid-list .fontebf::before,
+    .grid-list .bateria-pac-gr-99::before,
+    .grid-list .bateria-promo-22::before,
+    .grid-list .bateria-promo-28::before,
+    .grid-list .promo-pac-gr-99::before,
+    .grid-list .promo-22::before,
+    .grid-list .promo-28::before {
+        left: 49px!important
+    }
 }
 
 .liquidablack::before {
-	background-size: contain;
+    background-size: contain;
     height: 25px !important
-    }         
-    
+}
+
 .superblack::before {
-	background-size: contain;
+    background-size: contain;
     height: 25px !important
-    }    
-        
+}
+
 .shelf shelf-first n6colunas ul li a: hover {
-	text-decoration: underline
+    text-decoration: underline
 }
 
 .shelf ul li a: hover {
-	text-decoration: overline
+    text-decoration: overline
 }
 
 .promohp::before {
-	background-size: contain;
+    background-size: contain;
     height: 25px !important
-    }
+}

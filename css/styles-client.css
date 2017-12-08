@@ -1,5 +1,8 @@
 ﻿/*retirada das flags da bbdi*/
-.promo-bbdi { display: none; }
+
+.promo-bbdi {
+    display: none;
+}
 
 .page-footer .vendors .list .list-item.bbdi {
     position: relative;
@@ -28,18 +31,18 @@
     .abre-liguenos {
         display: none;
     }
-
     .abre-r-liguenos-r {
         display: block;
     }
 }
 
+
 /* Liguenos */
+
 @media (min-width: 1025px) {
     .abre-liguenos {
         display: block;
     }
-
     .abre-r-liguenos-r {
         display: none;
     }
@@ -344,7 +347,8 @@
     letter-spacing: 2px;
 }
 
-.box-r-liguenos input[type="text"], input[type="email"] {
+.box-r-liguenos input[type="text"],
+input[type="email"] {
     width: 100%;
     height: 25px;
     background-color: #D2D2D2;
@@ -463,8 +467,8 @@
     margin: 0 auto;
 }
 
-.bb-corporativo h2 { 
-    font-size: 20px; 
+.bb-corporativo h2 {
+    font-size: 20px;
     color: #602f85;
     padding-top: 20px;
 }
@@ -483,6 +487,7 @@
         padding-right: 20px;
     }
 }
+
 .bb-corporativo .banner-para-empresas {
     width: 100%;
     height: auto;
@@ -508,11 +513,9 @@
         width: 100%;
         height: auto;
     }
-    
     .bb-corporativo .pr-banner_site_desktop {
         display: block;
     }
-    
     .bb-corporativo .pr-banner_site_mobile {
         display: none;
     }
@@ -523,11 +526,9 @@
         width: 100%;
         height: auto;
     }
-    
     .bb-corporativo .pr-banner_site_desktop {
         display: none;
     }
-    
     .bb-corporativo .pr-banner_site_mobile {
         display: block;
     }
@@ -548,8 +549,9 @@
     padding-bottom: 20px;
 }
 
-.bb-corporativo .disponivel-empresa h2 { 
-    font-size: 20px; 
+
+.bb-corporativo .disponivel-empresa h2 {
+    font-size: 20px;
     color: #602f85;
     padding-top: 5px;
 }
@@ -575,7 +577,6 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    
     .bb-corporativo .disponivel-empresa h2 {
         text-align: center;
     }
@@ -595,8 +596,8 @@
     padding-bottom: 20px;
 }
 
-.bb-corporativo .confiam-empresa h2 { 
-    font-size: 20px; 
+.bb-corporativo .confiam-empresa h2 {
+    font-size: 20px;
     color: #602f85;
     padding-top: 5px;
 }
@@ -640,7 +641,6 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-    
     .bb-corporativo .confiam-empresa h2 {
         text-align: center;
     }
@@ -662,7 +662,7 @@
 .bb-corporativo .contato-empresa .center .portelefone {
     width: 40%;
     height: 420px;
-    float: left; 
+    float: left;
     border: solid 1px #602f85;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -700,7 +700,10 @@
     font-weight: bold;
 }
 
-.bb-corporativo a:link, a:visited, a:active, a:hover {
+.bb-corporativo a:link,
+a:visited,
+a:active,
+a:hover {
     text-decoration: inherit;
     color: inherit;
 }
@@ -760,7 +763,8 @@
     color: #999999;
 }
 
-.bb-corporativo .liguenos input[type="text"], input[type="email"] {
+.bb-corporativo .liguenos input[type="text"],
+input[type="email"] {
     width: 100%;
     height: 35px;
     background-color: #E1E3E2;
@@ -871,7 +875,6 @@
         height: auto;
         margin: 0 auto;
     }
-    
     .bb-corporativo .contato-empresa .center .portelefone {
         width: 100%;
         height: 340px;
@@ -882,12 +885,10 @@
         margin: 20px auto;
         float: inherit;
     }
-    
     .bb-corporativo .portelefone-aling-responsivo {
         width: 400px;
         margin: 0 auto;
     }
-    
     .bb-corporativo .contato-empresa .center .liguenos {
         width: 100%;
         height: 420px;
@@ -898,14 +899,12 @@
         margin: 20px auto;
         float: inherit;
     }
-    
     .bb-corporativo .portelefone .funcionamento .funcionamento-pt-um {
         width: auto;
         height: 28px;
         float: left;
         text-align: left;
     }
-    
     .bb-corporativo .portelefone .funcionamento .funcionamento-pt-dois {
         width: 40%;
         height: 28px;
@@ -919,7 +918,6 @@
         width: 320px;
         margin: 0 auto;
     }
-
     .bb-corporativo .portelefone .pr_empresas_mail {
         margin-top: 60px;
     }
@@ -1000,7 +998,7 @@
     transition: all 400ms ease-in-out;
 }
 
-.bb-corporativo .home-redes-empresa .base-redes .opacity:hover{
+.bb-corporativo .home-redes-empresa .base-redes .opacity:hover {
     opacity: 1;
     -webkit-transition: all 400ms ease-in-out;
     -moz-transition: all 400ms ease-in-out;
@@ -1086,73 +1084,72 @@
     background-color: transparent;
 }
 
+
 /* Ajustes  corporativo abaixo de 375px */
+
 @media (max-width: 375px) {
     .bb-corporativo .para-empresas {
         padding-left: 10px;
         padding-right: 10px;
     }
-    
     .bb-corporativo .portelefone .funcionamento {
         font-size: 10px;
     }
-    
     .bb-corporativo .portelefone .pr_empresas_mail {
         font-size: 14px;
     }
-    
     .bb-corporativo .liguenos .texto {
         margin: 0 auto;
         margin-top: 60px;
     }
-    
     .bb-corporativo .home-redes-empresa .home {
         float: inherit;
         margin: 0 auto;
     }
-    
     .bb-corporativo .home-redes-empresa .base-redes {
         float: inherit;
         margin: 0 auto;
         margin-top: 20px;
     }
 }
+
+
 /* Ajustes  corporativo abaixo de 375px */
+
 
 /* fim corporativo */
 
-/* Ajuste TRUSTEDCOMPANY */
-@media (min-width: 1024px) {
 
+/* Ajuste TRUSTEDCOMPANY */
+
+@media (min-width: 1024px) {
     .product-info-container .product-checkout .product-immediate-delivery {
         top: 115px;
     }
-
     .product-info-container .product-checkout .buy-button {
         margin-top: 66px;
         top: initial;
     }
-
     .product-info-container .product-checkout .product-info {
         min-height: 332px;
     }
-	
     .site-blindado-product {
         top: 240px;
     }
-
 }
 
 @media (max-width: 1024px) {
-
     div#TRUSTEDCOMPANY_widget_104693 {
         margin-bottom: 10px;
     }
-	
 }
+
+
 /* Ajuste TRUSTEDCOMPANY */
 
+
 /* Ajuste TRUSTEDCOMPANY !important */
+
 .tc-widget-standard {
     font-size: 12px !important;
 }
@@ -1188,34 +1185,72 @@
 span.tc-widget-logo--title {
     color: #000000!important;
 }
+
+
 /* Ajuste TRUSTEDCOMPANY !important */
 
+
 /* Mostrar numero avaliações estrelas trustvox pg baterias */
+
 body.category-redesign .category-shelf .shelf-info .evaluation .ts-shelf-rate-count {
     display: block!important;
     float: right!important;
     margin-top: 8px!important;
     margin-left: 4px!important;
 }
+
+
 /* Mostrar numero avaliações estrelas trustvox pg baterias */
 
+
 /* Correção botão avise-me pg produtos */
+
 @media (min-width: 1025px) {
     .product-info-container .product-checkout .notifyme .notifyme-button-ok {
         top: 150px!important;
         left: 375px!important;
     }
 }
+
+
 /* Correção botão avise-me pg produtos */
 
-.colecaoa, .colecaob, .colecaoc, .colecao39, .promobf, .promopg, .fontebf { color: transparent!important; }
+.colecaoa,
+.colecaob,
+.colecaoc,
+.colecao39,
+.promobf,
+.promopg,
+.fontebf,
+.bateria-pac-gr-99,
+.bateria-promo-22,
+.bateria-promo-28,
+.promo-pac-gr-99,
+.promo-22,
+.promo-28 {
+    color: transparent!important;
+}
+
 
 /* Ajustes flag desalinhada */
+
 .flag {
     width: 100%!important;
 }
 
-.colecaoa::before, .colecaob::before, .colecaoc::before, .colecao39::before, .promobf::before, .promopg::before, .fontebf::before {
+.colecaoa::before,
+.colecaob::before,
+.colecaoc::before,
+.colecao39::before,
+.promobf::before,
+.promopg::before,
+.fontebf::before,
+.bateria-pac-gr-99::before,
+.bateria-promo-22::before,
+.bateria-promo-28::before,
+.promo-pac-gr-99::before,
+.promo-22::before,
+.promo-28::before {
     width: 100%!important;
     background-position: right!important;
     left: -13px!important;
@@ -1224,9 +1259,13 @@ body.category-redesign .category-shelf .shelf-info .evaluation .ts-shelf-rate-co
 body.produto .product-image-container .flags {
     width: 100%;
 }
+
+
 /* Ajustes flag desalinhada */
 
+
 /* Ajustes flag desalinhada shelf-redesign */
+
 @media (min-width: 1024px) {
     .shelf-redesign .colecaoa::before {
         width: 382px!important;
@@ -1234,17 +1273,16 @@ body.produto .product-image-container .flags {
 }
 
 @media (max-width: 781px) {
-     .shelf-redesign .colecaoa::before {
+    .shelf-redesign .colecaoa::before {
         width: 362px!important;
     }
 }
 
 @media (max-width: 381px) {
-     .shelf-redesign .colecaoa::before {
+    .shelf-redesign .colecaoa::before {
         width: 315px!important;
     }
 }
-
 
 @media (min-width: 1024px) {
     .shelf-redesign .colecaob::before {
@@ -1253,17 +1291,16 @@ body.produto .product-image-container .flags {
 }
 
 @media (max-width: 781px) {
-     .shelf-redesign .colecaob::before {
+    .shelf-redesign .colecaob::before {
         width: 362px!important;
     }
 }
 
 @media (max-width: 381px) {
-     .shelf-redesign .colecaob::before {
+    .shelf-redesign .colecaob::before {
         width: 315px!important;
     }
 }
-
 
 @media (min-width: 1024px) {
     .shelf-redesign .colecaoc::before {
@@ -1272,17 +1309,16 @@ body.produto .product-image-container .flags {
 }
 
 @media (max-width: 781px) {
-     .shelf-redesign .colecaoc::before {
+    .shelf-redesign .colecaoc::before {
         width: 362px!important;
     }
 }
 
 @media (max-width: 381px) {
-     .shelf-redesign .colecaoc::before {
+    .shelf-redesign .colecaoc::before {
         width: 315px!important;
     }
 }
-
 
 @media (min-width: 1024px) {
     .shelf-redesign .colecao39::before {
@@ -1291,17 +1327,16 @@ body.produto .product-image-container .flags {
 }
 
 @media (max-width: 781px) {
-     .shelf-redesign .colecao39::before {
+    .shelf-redesign .colecao39::before {
         width: 362px!important;
     }
 }
 
 @media (max-width: 381px) {
-     .shelf-redesign .colecao39::before {
+    .shelf-redesign .colecao39::before {
         width: 315px!important;
     }
 }
-
 
 @media (min-width: 1024px) {
     .shelf-redesign .promobf::before {
@@ -1310,17 +1345,16 @@ body.produto .product-image-container .flags {
 }
 
 @media (max-width: 781px) {
-     .shelf-redesign .promobf::before {
+    .shelf-redesign .promobf::before {
         width: 362px!important;
     }
 }
 
 @media (max-width: 381px) {
-     .shelf-redesign .promobf::before {
+    .shelf-redesign .promobf::before {
         width: 315px!important;
     }
 }
-
 
 @media (min-width: 1024px) {
     .shelf-redesign .promopg::before {
@@ -1329,17 +1363,16 @@ body.produto .product-image-container .flags {
 }
 
 @media (max-width: 781px) {
-     .shelf-redesign .promopg::before {
+    .shelf-redesign .promopg::before {
         width: 362px!important;
     }
 }
 
 @media (max-width: 381px) {
-     .shelf-redesign .promopg::before {
+    .shelf-redesign .promopg::before {
         width: 315px!important;
     }
 }
-
 
 @media (min-width: 1024px) {
     .shelf-redesign .fontebf::before {
@@ -1348,26 +1381,142 @@ body.produto .product-image-container .flags {
 }
 
 @media (max-width: 781px) {
-     .shelf-redesign .fontebf::before {
+    .shelf-redesign .fontebf::before {
         width: 362px!important;
     }
 }
 
 @media (max-width: 381px) {
-     .shelf-redesign .fontebf::before {
+    .shelf-redesign .fontebf::before {
         width: 315px!important;
     }
 }
+
+@media (min-width: 1024px) {
+    .shelf-redesign .bateria-pac-gr-99::before {
+        width: 382px!important;
+    }
+}
+
+@media (max-width: 781px) {
+    .shelf-redesign .bateria-pac-gr-99::before {
+        width: 362px!important;
+    }
+}
+
+@media (max-width: 381px) {
+    .shelf-redesign .bateria-pac-gr-99::before {
+        width: 315px!important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .shelf-redesign .bateria-promo-22::before {
+        width: 382px!important;
+    }
+}
+
+@media (max-width: 781px) {
+    .shelf-redesign .bateria-promo-22::before {
+        width: 362px!important;
+    }
+}
+
+@media (max-width: 381px) {
+    .shelf-redesign .bateria-promo-22::before {
+        width: 315px!important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .shelf-redesign .bateria-promo-28::before {
+        width: 382px!important;
+    }
+}
+
+@media (max-width: 781px) {
+    .shelf-redesign .bateria-promo-28::before {
+        width: 362px!important;
+    }
+}
+
+@media (max-width: 381px) {
+    .shelf-redesign .bateria-promo-28::before {
+        width: 315px!important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .shelf-redesign .promo-pac-gr-99::before {
+        width: 382px!important;
+    }
+}
+
+@media (max-width: 781px) {
+    .shelf-redesign .promo-pac-gr-99::before {
+        width: 362px!important;
+    }
+}
+
+@media (max-width: 381px) {
+    .shelf-redesign .promo-pac-gr-99::before {
+        width: 315px!important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .shelf-redesign .promo-22::before {
+        width: 382px!important;
+    }
+}
+
+@media (max-width: 781px) {
+    .shelf-redesign .promo-22::before {
+        width: 362px!important;
+    }
+}
+
+@media (max-width: 381px) {
+    .shelf-redesign .promo-22::before {
+        width: 315px!important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .shelf-redesign .promo-28::before {
+        width: 382px!important;
+    }
+}
+
+@media (max-width: 781px) {
+    .shelf-redesign .promo-28::before {
+        width: 362px!important;
+    }
+}
+
+@media (max-width: 381px) {
+    .shelf-redesign .promo-28::before {
+        width: 315px!important;
+    }
+}
+
+
 /* Ajustes flag desalinhada shelf-redesign */
 
+
 /* Ajustes width e height */
+
 .qvvt li .collection-image-link img {
     width: 160px!important;
     height: 160px!important
 }
+
+
 /* Ajustes width e height */
 
+
 /* Ajustes caixas grudadas  */
+
 .depart-bestsellers .shelf ul li {
     margin: 0 7px 10px 0!important
 }
@@ -1375,22 +1524,30 @@ body.produto .product-image-container .flags {
 .qvvt .shelf ul li {
     margin: 0 10px 10px 0!important
 }
+
+
 /* Ajustes caixas grudadas  */
 
+
 /* Titulo H1 Categoria */
+
 .category-info h1 {
     color: #000;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 30px
 }
+
+
 /* Titulo H1 Categoria */
 
+
 /* Estilo PDF */
+
 .stylepdf h2 {
     font-size: 20px;
-	font-weight: bold;
-	color: #000000;
+    font-weight: bold;
+    color: #000000;
     line-height: 20px;
     margin-top: 20px;
     margin-bottom: 20px
@@ -1398,8 +1555,8 @@ body.produto .product-image-container .flags {
 
 .stylepdf h3 {
     font-size: 20px;
-	font-weight: bold;
-	color: #000000;
+    font-weight: bold;
+    color: #000000;
     line-height: 20px;
     margin-top: 20px;
     margin-bottom: 20px
@@ -1416,24 +1573,24 @@ body.produto .product-image-container .flags {
 }
 
 .stylepdf ul {
-	list-style-type: disc;
-	list-style-position: inside;
-	color: #000000;
-	margin-left: 5px
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #000000;
+    margin-left: 5px
 }
 
 .stylepdf li {
-	margin-bottom: 5px
+    margin-bottom: 5px
 }
 
 .stylepdf ul a {
-	margin-left: -5px
+    margin-left: -5px
 }
 
 .stylepdf a:link {
     color: #0d6ea1;
     text-decoration: none;
-	font-size: 17px;
+    font-size: 17px;
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
     -o-transition: color .2s ease-in-out;
@@ -1457,21 +1614,23 @@ body.produto .product-image-container .flags {
 }
 
 .category .stylepdf li {
-	margin-bottom: 14px
+    margin-bottom: 14px
 }
 
 .category-redesign-2 .stylepdf li {
-	margin-bottom: 14px
+    margin-bottom: 14px
 }
 
 .category-info.category-info-bottom .stylepdf li {
-	margin-bottom: 5px
+    margin-bottom: 5px
 }
 
 @media (max-width: 1024px) {
-     .stylepdf {
+    .stylepdf {
         padding-left: 10px;
         padding-right: 10px;
     }
 }
+
+
 /* Estilo PDF */
